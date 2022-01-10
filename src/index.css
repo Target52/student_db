@@ -1,0 +1,113 @@
+body {
+  font-family: Brown,Georgia,sans-serif;
+  background-color: #D4E6FA;
+}
+
+.header {
+  background-color: white;
+  color: rgb(79,138,201);
+  padding-bottom: 5px;
+  padding-left: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.logo {
+  height: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.legenda {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .legenda p {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+  }
+
+  .moeilijk {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(227, 93, 51);
+    margin-right: 10px;
+  }
+  
+  .leuk {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(252,244,167);
+    margin-left: 10px;
+  }
+
+  .buttons {
+    margin-top: 0px;
+  }
+
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: white;
+  }
+
+  button {
+    background-color: rgb(255,177,17);
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: rgb(230, 160, 16)
+  }
+  
+  .navbar {
+    font-size: 1.563vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79,138,201);
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .navbar li {
+    display: flex;
+
+  }
+
+  .navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(209, 143, 0);
+  }
+
+ .inner-info {
+   display: flex;
+ }
+
+ .inner {
+    justify-content: space-between;
+    margin-left: 25px;
+ }
+
